@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+
+/* Start Body Section */
+body {
+  z-index: 100;
+}
+/* End Body Section */
+
+/* Start Aside Section */
+aside {
+  background-color: #f9c4d1;
+  position: fixed;
+  bottom: 20px;
+  right: 50px;
+  z-index: 1000;
+}
+aside h3 {
+  font-size: 36px;
+  color: #e94e4e;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-align: center;
+  margin: 10px;
+}
+aside p {
+  font-size: 18px;
+  color: #818181;
+  font-weight: 400;
+  text-align: center;
+  line-height: 30px;
+}
+form {
+  color: #818181;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+form input,
+form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+}
+
+form button {
+  margin-top: 10px;
+  background-color: #f22a5b;
+  font-weight: bold;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* End Aside Section */
+
+/* Start First Section  */
+.first-section {
+  background-color: #f42d5b;
+  color: white;
+  display: flex;
+  height: 150vh;
+  padding: 50px;
+}
+
+.check {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.first-section-list {
+  margin-top: 20px;
+  display: grid;
+}
+
+.first-section h2 {
+  font-size: 52px;
+  line-height: 68px;
+  font-weight: 700;
+}
+
+.first-section-img {
+  margin-top: 20px;
+  width: 50%;
+}
+
+.first-section-text {
+  width: 50%;
+}
+/* End First Section */
+
+/* Start Second Section */
+.second-section {
+  display: flex;
+  height: 50vh;
+  padding: 50px;
+}
+
+/* End Second Section */
+
+/* Start Third Section */
+.third-section {
+  background-color: #fff4f4;
+  display: flex;
+  padding: 50px;
+}
+
+.third-section-img {
+  height: 250px;
+  width: 250px;
+}
+
+.third-section-first-div {
+  width: 50%;
+}
+
+.third-section-second-div {
+  width: 50%;
+}
+/* End Third Section */
+
+/* Start Fourth Section */
+.fourth-section {
+  background-color: white;
+  height: fit-content;
+  padding: 50px;
+  display: flex;
+  height: 250vh;
+  padding: 50px;
+}
+
+.fourth-section-div {
+  background-color: #f22a5b;
+  padding: 30px;
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px;
+  margin-bottom: 50px;
+}
+/* End Fourth Section */
+
+/* Start Fifth Section */
+.fifth-section {
+  background-color: #fff4f4;
+  display: flex;
+  height: 50vh;
+  padding: 50px;
+}
+/* End Fifth Section */
+
+/* Start Sixth Section */
+.sixth-section {
+  background-color: #fff;
+  display: flex;
+  height: 50vh;
+  padding: 50px;
+}
+/* End Sixth Section */
+
+/* Start Seventh Section */
+.seventh-section {
+  background-color: #fe4755;
+  color: #fff;
+  display: flex;
+  height: 90vh;
+  padding: 50px 100px;
+}
+
+.seventh-section p {
+  width: 60%;
+  margin: 20px;
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 80px;
+}
+/* End Seventh Section */
+
+/*Start Footer Section */
+.footer {
+  background-color: #fff;
+  display: flex;
+  height: 25vh;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 50px;
+}
+/* End Footer Section */
